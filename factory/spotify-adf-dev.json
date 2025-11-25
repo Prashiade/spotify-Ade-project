@@ -1,9 +1,9 @@
 {
 	"name": "spotify-adf-dev",
-	"location": "westus3",
+	"location": "eastus",
 	"identity": {
 		"type": "SystemAssigned",
-		"principalId": "30f32f96-173c-40fe-b2d1-3b246dafb01d",
+		"principalId": "ad9f3366-d96f-4c40-9f90-c72e59514675",
 		"tenantId": "a1eeace2-4d2d-4d59-9d90-8fc7007ba56c"
 	}
 }
