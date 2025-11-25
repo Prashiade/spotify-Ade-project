@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "spotify-adf-dev"
+		},
+		"Ls_adls_sink_accountKey": {
+			"value": ""
+		},
+		"Ls_azure_sql_password": {
+			"value": ""
+		},
+		"Ls_adls_sink_properties_typeProperties_url": {
+			"value": "https://spotifystorageaccprash.dfs.core.windows.net/"
+		},
+		"Ls_azure_sql_properties_typeProperties_server": {
+			"value": "spotifyazureserver1.database.windows.net"
+		},
+		"Ls_azure_sql_properties_typeProperties_database": {
+			"value": "spotify-db"
+		},
+		"Ls_azure_sql_properties_typeProperties_userName": {
+			"value": "adminprashi"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
