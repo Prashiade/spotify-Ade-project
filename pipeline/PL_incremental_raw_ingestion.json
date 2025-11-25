@@ -302,10 +302,10 @@
 			}
 		],
 		"parameters": {
-			"schema": {
+			"Schema_Name": {
 				"type": "string"
 			},
-			"Table": {
+			"Table_Name": {
 				"type": "string"
 			},
 			"cdc_col": {
