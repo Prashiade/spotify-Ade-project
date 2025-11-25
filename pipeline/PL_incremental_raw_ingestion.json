@@ -69,7 +69,7 @@
 						"parameters": {
 							"container": "bronze",
 							"folder": {
-								"value": "@{pipeline().parameters.Table_Name}_cdc",
+								"value": "@{pipeline().parameters.Table_Name}",
 								"type": "Expression"
 							},
 							"file": {
@@ -307,7 +307,8 @@
 					{
 						"activity": "If incremnatl data",
 						"dependencyConditions": [
-							"Failed"
+							"Failed",
+							"Succeeded"
 						]
 					}
 				],
